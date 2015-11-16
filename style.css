@@ -1,0 +1,11 @@
+body {
+    margin: 20px;
+    background-color: #58b1d8;
+    color: #FFFFFF;
+    font-family: sams-serif;
+    background: -webkit-linear-gradient(#778899 10%, #F0FFFF 100%); /*Safari 5.1-6*/
+    background: -o-linear-gradient(#778899 10%, #F0FFFF 100%); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(#778899 10%, #F0FFFF 100%); /*Fx 3.6-15*/
+    background: linear-gradient(#778899 10%, #F0FFFF 100%);
+
+}
