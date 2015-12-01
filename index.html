@@ -6,7 +6,8 @@
     
     <!-- Font -->
     <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    
     <!-- Jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     
@@ -19,6 +20,8 @@
     <!-- Javascript -->
     <script src="/js/bootstrap.js"></script>
     <script src="js/npm.js"></script>
+    
+    
     
 </head>
 <body>
@@ -35,7 +38,7 @@
                 <span class="icon-bar"></span>   
                 <span class="icon-bar"></span>
             </button>
-            <a class = "navbar-brand" href = "#">Nathaniel Wong</a>
+            <a class = "navbar-brand" href = "/index.html">Nathaniel Wong</a>
         </div>
         <!-- Buttons -->
         <div class="collapse navbar-collapse" id="myNavBar">
@@ -49,19 +52,22 @@
     </div>
 </nav>
 
-<!-- First Container -->
-
-<div class="container-fluid bg-1 text-center">
-  <h3 class="margin">Hi, I'm Nathaniel!</h3>
-  <img src="Images/WONG091496(3).jpg" class="img-responsive img-circle margin" style="display:inline" alt="Profile" width="150" height="350">
-  <h3>Computer Engineer | Queen's University</h3>
-</div>
-
+    
+<!-- First Container-->
+ <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1 class="margin">Hi, I'm Nathaniel!</h1>
+                <img src="Images/WONG091496(3).jpg" class="img-responsive img-circle margin" style="display:inline" alt="Profile" width="150" height="350">
+                <h3>Computer Engineer | Queen's University</h3>
+            </div>
+        </div>
+</header>
 
 
 <!-- Second Container -->
 <div class="container-fluid bg-2 text-center">
-  <h3 class="margin">About</h3>
+  <h3 >About</h3>
   <p>I'm a 2nd year Computer Engineering Student at Queen's University.<br> Passionate for business and technology.</p>
 </div>
 
@@ -84,20 +90,27 @@
         <h3 class="margin"> Photos </h3>
       <p>Experience some of my breathtaking adventures.</p>
       <img src="Images/DSC02054.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-        <img src="Images/DSC01994.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+        <img src="Images/DSC01412(2).jpg" class="img-responsive margin" style="width:100%" alt="Image">
     </div>
   </div>
 </div>
 
 <!-- Footer -->
 <footer class="container-fluid bg-4 text-center">
-    <h2>Contact Info</h2>
-    <p> Email: <a href="mailto:nathaniel.r.wong@gmail.com">nathaniel.r.wong@gmail.com</a>
-        <br>
-        Phone: <a href="tel:6138636329">613-863-6329</a>
-        <br>
-        LinkedIn: <a href="https://ca.linkedin.com/in/nathanielrwong">https://ca.linkedin.com/in/nathanielrwong</a>
-    </p> 
+    <div class="col-sm-3">
+        <p><a href="http://ca.linkedin.com/in/nathanielrwong" target="_blank"><i class="fa  fa-linkedin fa-3x"></i></a></p>
+    </div>
+    <div class="col-sm-3">
+        <p><a href="mailto:nathaniel.r.wong@gmail.com"><i class="fa fa-envelope-o fa-3x" data-wow-delay=".1s"></i></a></p>
+    </div>
+    <div class="col-sm-3">
+        <p><a href="http://github.com/natw2012" target="_blank"><i class = "fa  fa-github fa-3x"></i></a></p>
+    </div>
+    <div class="col-sm-3">
+        <p><a href="tel:6138636329"><i class="fa fa-phone fa-3x"></i></a></p>
+    </div>
+    
+    
 </footer>
 
 </body>

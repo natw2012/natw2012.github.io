@@ -1,39 +1,53 @@
 <html lang="en">
 <head>
-  <title>Nathaniel Wong Photos</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="/CSS/style.css" type="text/css" >
+    <title>Nathaniel Wong</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Font -->
+    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/CSS/bootstrap.css" type="text/css" >
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/CSS/style.css" type="text/css">
+
+    <!-- Javascript -->
+    <script src="/js/bootstrap.js"></script>
+    <script src="js/npm.js"></script>
+    
 </head>
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-default">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>   
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="/index.html">Nathaniel Wong</a>
+<nav class = "navbar navbar-default navbar-fixed-top" role = "navigation">
+    <div class= "container">
+        
+        <!-- Spacing of header buttons -->
+        <div class = "navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>   
+                <span class="icon-bar"></span>
+            </button>
+            <a class = "navbar-brand" href = "/index.html">Nathaniel Wong</a>
+        </div>
+        <!-- Buttons -->
+        <div class="collapse navbar-collapse" id="myNavBar">
+            <ul class = "nav navbar-nav navbar-right">
+                <li><a href = "/Extra/Resume.pdf">Resume</a></li>
+                <li><a href="/HTML/projects.html">Projects</a></li>
+                <li><a href="/HTML/blog.html">Blog</a></li>
+                <li><a href="/HTML/photos.html">Photos</a></li>
+            </ul>
+        </div>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="/Extra/Resume.pdf">Resume</a></li>
-        <li><a href="/HTML/projects.html">Projects</a></li>
-        <li><a href="/HTML/blog.html">Blog</a></li>
-        <li><a href="/HTML/photos.html">Photos</a></li>
-      </ul>
-    </div>
-  </div>
 </nav>
-
 
 <!-- Footer -->
 <footer class="container-fluid bg-4 text-center">
@@ -48,4 +62,3 @@
 
 </body>
 </html>
-
